@@ -42,7 +42,6 @@ export const getOneCard = async (id: string): Promise<Card | null> => {
   }
   return null;
 };
-// GET MANY
 
 export const getManyCards = async (): Promise<Card[]> => {
   const data = await sqliteAll(
